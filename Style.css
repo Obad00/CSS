@@ -1,0 +1,64 @@
+/*GENERAL */
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sizeliens {
+    width: 30%;
+}
+
+font-family: 'Roboto', sans-serif;
+
+
+footer {
+    flex-shrink: 1;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+.Contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+
+/* Mes réseaux */
+
+.liste-media {
+    position: relative;
+    right: 10px;
+}
+.liste-media img {
+    font-size: 40px;
+    margin: 10px 10px;
+}
+
+.liste-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.img1 {
+    width: 25px;
+}
